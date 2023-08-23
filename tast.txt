@@ -1,0 +1,7 @@
+export CROSS_COMPILE=aarch64-rpi4-linux-gnu-
+export ARCH=arm64 
+make bcm2711_defconfig
+make menuconfig
+
+export PATH="/home/abdel//x-tools/aarch64-rpi4-linux-gnu/bin/:$PATH"
+
